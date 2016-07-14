@@ -19,6 +19,7 @@ ldconfig
 
 4，nginx配置文件添加配置
 
+```
 location = /lua_thrift{
             add_header 'Content-Type' 'text/html';
             content_by_lua '
@@ -26,6 +27,7 @@ location = /lua_thrift{
                 ngx.say(cln.demoFunc());
             ';
 }
+```
 
 
 To access web url http://127.0.0.1:8000/lua_thrift and get result.
