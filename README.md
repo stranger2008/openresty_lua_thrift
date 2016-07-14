@@ -13,8 +13,8 @@ install openresty.
 
 3，把so文件放到系统里
 
-#cp lualib/*.so /usr/local/lib/
-#ldconfig
+cp lualib/*.so /usr/local/lib/
+ldconfig
 
 4，nginx配置文件添加配置
 
