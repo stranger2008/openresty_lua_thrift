@@ -7,6 +7,7 @@ thrift_lua_ngx_test：java服务端
 1，下载安装openresty
 
 download https://openresty.org/download/openresty-x.y.z.a.tar.gz .
+
 install openresty.
 
 2，lualib里所有的内容直接放到openresty下的lualib中
@@ -33,4 +34,5 @@ location = /lua_thrift{
 To access web url http://127.0.0.1:8000/lua_thrift and get result.
 
 1.111111
+
 2.5555555
